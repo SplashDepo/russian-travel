@@ -4,3 +4,11 @@
   grid-template-rows: repeat(3, 1fr);
   gap: 16px;
 }
+
+@media screen and (max-width: 1024px) {
+  .grid-gallery__grid-wrap {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 14px;
+  }
+}
