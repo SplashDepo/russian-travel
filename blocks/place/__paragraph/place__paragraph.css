@@ -21,3 +21,9 @@
     margin-bottom: 25px;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .place__paragraph {
+    padding: 0 16px;
+  }
+}

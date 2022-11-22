@@ -1,4 +1,4 @@
-.header__lang-list{
+.header__lang-list {
   margin: 0;
   padding: 0;
   display: flex;
@@ -6,4 +6,11 @@
   font-family: 'Inter';
   font-weight: 400;
   font-size: 24px;
+}
+
+@media screen and (max-width: 490px) {
+  .header__lang-list {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

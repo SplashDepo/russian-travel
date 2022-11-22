@@ -1,4 +1,4 @@
-.gred-gallery__container {
+.grid-gallery__container {
   max-width: 1184px;
   margin: 0 auto;
   padding: 0 48px;
@@ -11,7 +11,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .gred-gallery__container {
+  .grid-gallery__container {
     padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .grid-gallery__container {
+    padding: 0 16px;
   }
 }

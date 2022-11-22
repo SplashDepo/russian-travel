@@ -7,3 +7,9 @@
     margin-bottom: 73px;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .places__place:not(:last-child) {
+    margin-bottom: 55px;
+  }
+}

@@ -21,3 +21,9 @@
     padding: 115px 0;
   }
 }
+
+@media screen and (max-width: 490px) {
+  .cover__link {
+    padding: 33px 0;
+  }
+}
