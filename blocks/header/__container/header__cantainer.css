@@ -9,3 +9,9 @@
     padding: 0 24px;
   }
 }
+
+@media screen and (max-width: 688px) {
+  .header__container {
+    padding: 0 16px;
+  }
+}

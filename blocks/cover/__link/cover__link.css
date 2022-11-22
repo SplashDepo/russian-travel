@@ -1,4 +1,5 @@
 .cover__link {
+  padding: 245px 0;
   text-align: center;
   display: block;
   color: #fff;
@@ -7,4 +8,16 @@
 
 .cover__link:hover {
   background: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__link {
+    padding: 195px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__link {
+    padding: 115px 0;
+  }
 }

@@ -1,5 +1,6 @@
 .place__image {
   max-width: 100%;
-  /* font-size: 0; */
+  font-size: 0;
   display: block;
+  grid-column: 1/2;
 }

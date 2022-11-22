@@ -1,9 +1,0 @@
-.place__url-heading_type_altai {
-  margin-top: 30px;
-}
-
-@media screen and (max-width: 768px) {
-  .place__url-heading_type_altai {
-    margin-top: 0;
-  }
-}

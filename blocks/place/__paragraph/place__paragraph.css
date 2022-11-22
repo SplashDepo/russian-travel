@@ -13,11 +13,8 @@
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 163%;
+    line-height: 160%;
   }
 
   .place__paragraph:not(:last-child) {
