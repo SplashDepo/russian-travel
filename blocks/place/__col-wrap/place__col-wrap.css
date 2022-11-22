@@ -8,3 +8,9 @@
     margin-right: 32px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .place__col-wrap {
+    max-width: 340px;
+  }
+}

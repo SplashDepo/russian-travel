@@ -10,3 +10,9 @@
     margin-bottom: 7px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    margin-bottom: 3px;
+  }
+}

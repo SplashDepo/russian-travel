@@ -9,3 +9,9 @@
     max-width: 928px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .gred-gallery__container {
+    padding: 0 24px;
+  }
+}

@@ -2,3 +2,10 @@
   padding: 92px 0;
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .places {
+    box-sizing: border-box;
+    padding: 88px 0;
+  }
+}

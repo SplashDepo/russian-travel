@@ -1,11 +1,17 @@
 .intro__container {
   max-width: 984px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 48px;
 }
 
 @media screen and (max-width: 1024px) {
   .intro__container {
     max-width: 924px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__container {
+    padding: 0 24px;
   }
 }
