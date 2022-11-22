@@ -4,3 +4,9 @@
   display: flex;
   list-style: none;
 }
+
+@media screen and (max-width: 688px) {
+  .menu__list {
+    flex-direction: column;
+  }
+}
