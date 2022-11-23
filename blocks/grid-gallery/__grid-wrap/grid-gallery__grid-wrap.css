@@ -1,4 +1,8 @@
 .grid-gallery__grid-wrap {
+  max-width: 1184px;
+  margin: 0 auto;
+  padding: 0 48px;
+
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -7,6 +11,8 @@
 
 @media screen and (max-width: 1024px) {
   .grid-gallery__grid-wrap {
+    max-width: 928px;
+
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 14px;
@@ -15,6 +21,8 @@
 
 @media screen and (max-width: 768px) {
   .grid-gallery__grid-wrap {
+    padding: 0 24px;
+
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     gap: 16px;
@@ -23,6 +31,8 @@
 
 @media screen and (max-width: 490px) {
   .grid-gallery__grid-wrap {
+    padding: 0 16px;
+
     grid-template-columns: 1fr;
     grid-template-rows: repeat(12, 1fr);
     gap: 12px 0;

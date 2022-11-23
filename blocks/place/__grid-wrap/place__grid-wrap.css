@@ -1,4 +1,4 @@
-.place__grid-wrap {
+/* .place__grid-wrap {
   display: grid;
   grid-template-columns: 460px 1fr;
   grid-template-rows: repeat(2, auto);
@@ -22,7 +22,7 @@
 @media screen and (max-width: 688px) {
   .place__grid-wrap {
     grid-template-columns: 1fr;
-    /* grid-template-rows: repeat(4, auto); */
+    grid-template-rows: repeat(4, auto);
     gap: 32px 0;
   }
-}
+} */
