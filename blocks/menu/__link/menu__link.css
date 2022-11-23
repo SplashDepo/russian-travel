@@ -1,5 +1,5 @@
 .menu__link {
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -7,6 +7,10 @@
 
   text-decoration: none;
   color: #fff;
+}
+
+.menu__link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 688px) {

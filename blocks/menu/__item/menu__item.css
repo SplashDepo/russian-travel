@@ -3,11 +3,11 @@
 }
 
 @media screen and (max-width: 688px) {
-  .menu__item:not(:last-of-type) {
+  .menu__item {
     margin-right: 0;
   }
 
-  .menu__item:not(:nth-child(5n)) {
+  .menu__item:not(:last-child) {
     margin-bottom: 32px;
   }
 }

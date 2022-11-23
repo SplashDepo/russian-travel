@@ -2,11 +2,19 @@
   margin: 0 0 32px 0;
   max-width: 560px;
 
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
+}
+
+@media screen and (max-width: 520px) {
+  .cover__title {
+
+    font-size: 50px;
+    line-height: 50px;
+  }
 }
 
 @media screen and (max-width: 490px) {
